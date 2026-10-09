@@ -11,6 +11,7 @@ public class LibraryService {
      * Returns the copy count after issuing one copy of title.
      * @throws BookUnavailableException if availableCopies is 0.
      */
+    // Issues one copy of the given title from the catalogue
     public static int issueBook(int availableCopies, String title) throws BookUnavailableException {
         if (availableCopies <= 0) {
             throw new BookUnavailableException("'" + title + "' has no copies available.");

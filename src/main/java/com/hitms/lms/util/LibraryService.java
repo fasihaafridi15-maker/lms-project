@@ -26,4 +26,4 @@ public class LibraryService {
             System.out.println("Transaction failed: " + e.getMessage());
         }
     }
-}
+}// Helper method updated
